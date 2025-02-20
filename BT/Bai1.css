@@ -1,0 +1,8 @@
+.dropdown-menu .dropdown-item {
+    color: white !important;  /* Đặt màu chữ trắng */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: blue !important; /* Khi hover, nền chuyển thành xanh */
+    color: white !important; /* Đảm bảo chữ vẫn trắng */
+}

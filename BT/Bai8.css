@@ -1,0 +1,70 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(207, 218, 228);
+  width: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+}
+.body1 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+}
+.sub{
+    opacity: 0.5;
+    font-size: 12px;
+}
+.name input , .number input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ded3d3;
+    margin-top: 5px;
+    width: 250px;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 20px;
+    border-bottom:1px solid black;
+}
+.expiration input,.cvv input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ded3d3;
+    margin-top: 5px;
+    width: 70px;
+}
+.cvv ,.expiration{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
